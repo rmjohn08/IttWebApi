@@ -1,0 +1,32 @@
+C:\software\sandbox\webapi\webapitest\web api\bin\web api.dll
+C:\software\sandbox\webapi\webapitest\web api\bin\web api.pdb
+C:\software\sandbox\webapi\webapitest\web api\bin\Antlr3.Runtime.dll
+C:\software\sandbox\webapi\webapitest\web api\bin\EntityFramework.dll
+C:\software\sandbox\webapi\webapitest\web api\bin\Microsoft.Web.Infrastructure.dll
+C:\software\sandbox\webapi\webapitest\web api\bin\Newtonsoft.Json.dll
+C:\software\sandbox\webapi\webapitest\web api\bin\System.Net.Http.Formatting.dll
+C:\software\sandbox\webapi\webapitest\web api\bin\System.Web.Helpers.dll
+C:\software\sandbox\webapi\webapitest\web api\bin\System.Web.Http.dll
+C:\software\sandbox\webapi\webapitest\web api\bin\System.Web.Http.WebHost.dll
+C:\software\sandbox\webapi\webapitest\web api\bin\System.Web.Mvc.dll
+C:\software\sandbox\webapi\webapitest\web api\bin\System.Web.Optimization.dll
+C:\software\sandbox\webapi\webapitest\web api\bin\System.Web.Providers.dll
+C:\software\sandbox\webapi\webapitest\web api\bin\System.Web.Razor.dll
+C:\software\sandbox\webapi\webapitest\web api\bin\System.Web.WebPages.Deployment.dll
+C:\software\sandbox\webapi\webapitest\web api\bin\System.Web.WebPages.dll
+C:\software\sandbox\webapi\webapitest\web api\bin\System.Web.WebPages.Razor.dll
+C:\software\sandbox\webapi\webapitest\web api\bin\WebGrease.dll
+C:\software\sandbox\webapi\webapitest\web api\bin\EntityFramework.xml
+C:\software\sandbox\webapi\webapitest\web api\bin\Newtonsoft.Json.xml
+C:\software\sandbox\webapi\webapitest\web api\bin\System.Net.Http.Formatting.xml
+C:\software\sandbox\webapi\webapitest\web api\bin\System.Web.Helpers.xml
+C:\software\sandbox\webapi\webapitest\web api\bin\System.Web.Http.xml
+C:\software\sandbox\webapi\webapitest\web api\bin\System.Web.Http.WebHost.xml
+C:\software\sandbox\webapi\webapitest\web api\bin\System.Web.Mvc.xml
+C:\software\sandbox\webapi\webapitest\web api\bin\System.Web.Razor.xml
+C:\software\sandbox\webapi\webapitest\web api\bin\System.Web.WebPages.xml
+C:\software\sandbox\webapi\webapitest\web api\bin\System.Web.WebPages.Deployment.xml
+C:\software\sandbox\webapi\webapitest\web api\bin\System.Web.WebPages.Razor.xml
+C:\software\sandbox\webapi\webapitest\web api\obj\Debug\web api.csprojResolveAssemblyReference.cache
+C:\software\sandbox\webapi\webapitest\web api\obj\Debug\web api.dll
+C:\software\sandbox\webapi\webapitest\web api\obj\Debug\web api.pdb

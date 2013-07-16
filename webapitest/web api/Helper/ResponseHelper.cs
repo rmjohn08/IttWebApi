@@ -5,10 +5,10 @@ using System.Web;
 using System.Web.Http;
 using System.Net;
 using System.Net.Http;
-using CN_webapi.Models.Version0_01;
+using intertrak_webapi.Models.Version0_01;
 using Newtonsoft.Json;
 
-namespace CN_webapi.Helpers
+namespace intertrak_webapi.Helpers
 {
     public static class ResponseHelper
     {

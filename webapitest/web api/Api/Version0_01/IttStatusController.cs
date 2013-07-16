@@ -10,11 +10,11 @@ using System.Net.Mime;
 using System.Configuration;
 using System.IO;
 using System.Xml;
-using web_api.Models;
+using intertrak_api.Models;
 using Newtonsoft.Json;
-using CN_webapi.Helpers;
+using intertrak_webapi.Helpers;
 
-namespace CN_webapi.Api.Version0_01
+namespace intertrak_webapi.Api.Version0_01
 {
     /// <summary>
     /// purpose of this class is to test the Web Api framework.  Api versioning is made following the work done in Complete Nutrition with WebAPi.  
@@ -22,9 +22,9 @@ namespace CN_webapi.Api.Version0_01
     public class IttStatusController : ApiController
     {
         /// <summary>
-        /// Get method that provides a simple string showing a good call string
+        /// Get method that provides a simple string returning a string
         /// </summary>
-        /// <returns></returns>
+        /// <returns>An HttpResponseMessage object</returns>
         [HttpGet]
         public HttpResponseMessage apiStatus()
         {
@@ -43,10 +43,10 @@ namespace CN_webapi.Api.Version0_01
         }
 
         /// <summary>
-        /// simple method showing how to pass parameters in the request. 
+        /// simple method showing how to pass a string parameter in the post request. 
         /// </summary>
         /// <param name="user"></param>
-        /// <returns></returns>
+        /// <returns>HttpResponseMessage</returns>
         [HttpPost]
         public HttpResponseMessage registerUser(string user)
         {
@@ -77,10 +77,10 @@ namespace CN_webapi.Api.Version0_01
         }
 
         /// <summary>
-        /// simple method showing how to send Object in the request. The framework takes a Json string and converts it to the StatusMessageModel
+        /// simple method showing how to send Object in post request. The framework takes a Json string and converts it to the StatusMessageModel
         /// </summary>
         /// <param name="mm">a StatusMessageModel object </param>
-        /// <returns></returns>
+        /// <returns>HttpResponseMessage</returns>
         [HttpPost]
         public HttpResponseMessage postMessage(StatusMessageModel mm)
         {
@@ -88,6 +88,7 @@ namespace CN_webapi.Api.Version0_01
 
             newMessage.message = "Received (" + mm.status + " " + mm.message + ")";
             newMessage.status = "OK";
+            
             HttpResponseMessage response = null;
             response = ResponseHelper.CreateResponse(HttpStatusCode.Accepted, newMessage, Request);
 
@@ -95,6 +96,17 @@ namespace CN_webapi.Api.Version0_01
 
         }
 
+        [HttpPost]
+        public HttpResponseMessage registerCompany(Company company)
+        {
+
+            StatusMessageModel message = new StatusMessageModel();
+            message.message = "Company registered";
+            message.status = "OK";
+            HttpResponseMessage response = ResponseHelper.CreateResponse(HttpStatusCode.Accepted, message, Request);
+
+            return response;
+        }
         
     }
 }

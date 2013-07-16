@@ -4,7 +4,7 @@
     using System.Linq;
     using System.Web;
 
-    namespace web_api.Models
+    namespace intertrak_api.Models
     {
         public class StatusMessageModel
         {

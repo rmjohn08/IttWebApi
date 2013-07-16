@@ -5,9 +5,9 @@ using System.Linq;
 using System.Net;
 using System.Net.Http;
 using System.Web.Http;
-using web_api.Models;
+using intertrak_api.Models;
 
-namespace web_api.Api
+namespace intertrak_api.Api
 {
     public class IttController : ApiController
     {

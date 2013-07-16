@@ -134,7 +134,9 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="Helper\LoggerHelper.cs" />
     <Compile Include="Helper\ResponseHelper.cs" />
+    <Compile Include="Models\Company.cs" />
     <Compile Include="Models\ErrorResponseModel.cs" />
     <Compile Include="Models\StatusMessageModel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

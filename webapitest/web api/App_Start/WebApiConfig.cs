@@ -48,6 +48,13 @@ namespace web_api
                 defaults: new { controller = "IttStatus", action = "postMessage" },
                 constraints: new { version = versionConstraint }
             );
+
+            config.Routes.MapHttpRoute(
+                name: "IttRegisterCompany",
+                routeTemplate: "webapi/{version}/registercompany",
+                defaults: new { controller = "IttStatus", action = "registerCompany" },
+                constraints: new { version = versionConstraint }
+            );
         }
     }
 }
